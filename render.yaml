@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: music-downloader
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        scope: secret
+      - key: APP_URL
+        fromService:
+          type: web
+          property: url
