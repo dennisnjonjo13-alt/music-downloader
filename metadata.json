@@ -1,0 +1,6 @@
+{
+  "name": "DENNIS TECH UNLOCKED MEDIA CENTERE",
+  "description": "Discover top music tracks across many genres, search real-time results from YouTube, play high-quality video previews, and download audio or video in selected qualities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
